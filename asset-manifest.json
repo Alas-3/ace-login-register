@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ace-login-register/static/css/main.1da954a5.css",
+    "main.js": "/ace-login-register/static/js/main.7e88623e.js",
+    "static/js/787.f24b9f61.chunk.js": "/ace-login-register/static/js/787.f24b9f61.chunk.js",
+    "static/media/backgroundimg.jpg": "/ace-login-register/static/media/backgroundimg.b70fab29c08af8dafb54.jpg",
+    "static/media/meme4.jpg": "/ace-login-register/static/media/meme4.5c9c06acffba9afb97b4.jpg",
+    "static/media/luffy4x.jpg": "/ace-login-register/static/media/luffy4x.69961eb2cbfadc754b96.jpg",
+    "static/media/meme3.jpg": "/ace-login-register/static/media/meme3.dff185b5e53d025a679c.jpg",
+    "static/media/ichigo4x.jpg": "/ace-login-register/static/media/ichigo4x.cb67ce1d96636403e490.jpg",
+    "static/media/narutoicon.jpg": "/ace-login-register/static/media/narutoicon.996a5f125f33b1b4b5dc.jpg",
+    "static/media/meme2.jpg": "/ace-login-register/static/media/meme2.5d3956c68e449e0d67da.jpg",
+    "static/media/meme1.jpg": "/ace-login-register/static/media/meme1.768fc813be94c77a204f.jpg",
+    "index.html": "/ace-login-register/index.html",
+    "main.1da954a5.css.map": "/ace-login-register/static/css/main.1da954a5.css.map",
+    "main.7e88623e.js.map": "/ace-login-register/static/js/main.7e88623e.js.map",
+    "787.f24b9f61.chunk.js.map": "/ace-login-register/static/js/787.f24b9f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da954a5.css",
+    "static/js/main.7e88623e.js"
+  ]
+}
