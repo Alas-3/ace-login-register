@@ -1,6 +1,6 @@
 .announcement-bar {
   position: fixed;
-  top: 4.5rem;
+  top: 5rem;
   left: 0;
   width: 100%;
   background-color: #F7DC6F;
@@ -12,7 +12,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   animation: marquee 20s linear infinite;
-  z-index: 9999; /* set a high z-index */
+  z-index: 998; /* set a high z-index */
 }
 
 @keyframes marquee {
