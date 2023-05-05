@@ -3,6 +3,8 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import './Homepage.css';
 import Footer from '../Footer/Footer';
 import CardsPage from '../Cards/CardsPage';
+import Calculator from '../Calculator/SalaryCalc';
+import AnnouncementBar from '../Announcement/Announcement';
 
 import image1 from '../img/meme1.jpg';
 import image2 from '../img/meme2.jpg';
@@ -44,6 +46,7 @@ const Homepage = () => {
 
   return (
     <>
+    <AnnouncementBar />
     <div className="carousel-container">
       <div className="carousel">
   <div className="carousel-image-container" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
@@ -71,6 +74,7 @@ const Homepage = () => {
       <Pagination />
     </div>
     <CardsPage />
+    <Calculator />
     <Footer />
 </>
   );

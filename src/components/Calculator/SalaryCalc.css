@@ -1,0 +1,75 @@
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+.salary-calculator-container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  max-width: 800px;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid white;
+}
+
+.salary-calculator-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.salary-calculator-container label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.salary-calculator-container input[type="number"],
+.salary-calculator-container button {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+.salary-calculator-container .currency-container {
+  display: flex;
+  align-items: center;
+}
+
+.salary-calculator-container .currency-container label {
+  margin-right: 10px;
+}
+
+.salary-calculator-container button.currency-toggle {
+  width: auto;
+}
+
+.salary-calculator-container button.calculate-button {
+  width: calc(100% - 10px);
+  grid-column: 1 / span 3;
+}
+
+.salary-calculator-container p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  grid-column: 1 / span 3;
+}
+
+.salary-calculator-container .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  grid-column: 1 / span 3;
+}

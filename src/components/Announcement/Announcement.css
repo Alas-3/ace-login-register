@@ -1,0 +1,25 @@
+.announcement-bar {
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  width: 100%;
+  background-color: #F7DC6F;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: marquee 20s linear infinite;
+  z-index: 9999; /* set a high z-index */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
